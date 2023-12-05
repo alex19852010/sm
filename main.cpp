@@ -60,7 +60,6 @@ int main() {
 
     dog1.getToy(toy2);
    
-
     dog1.dropToy();
     dog2.dropToy();
 
