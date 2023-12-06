@@ -45,7 +45,7 @@ public:
     }
 
 private:
-    std::shared_ptr<Toy> toy_;
+    shared_ptr<Toy> toy_;
 };
 
 int main() {
