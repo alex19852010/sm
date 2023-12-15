@@ -61,7 +61,7 @@ public:
         return 0;
     }
 
-    std::string getToyName() const {
+    string getToyName() const {
         if (ptr) {
             return ptr->getName();
         }
@@ -113,6 +113,7 @@ int main() {
               << toy_03.getToyName() << " links:" << toy_03.use_count() << endl;
 
     cout << "=================================================" << endl;
+
     
     
     return 0;
